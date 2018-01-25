@@ -1,0 +1,59 @@
+#display {
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background-image:url(img/pano1.jpg);
+    background-size:auto 150%;
+    background-position:50% center;
+    z-index: -1;
+}
+
+#control {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    padding:10px;
+    margin:15px;
+    border-radius:15px;
+    background-color:rgba(255,255,255,0.3);
+}
+
+#control button {
+    padding:10px 15px;
+    font-family:sans-serif;
+    border-radius:15px;
+}
+
+#scrollL  {
+    width:20%;
+    height:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+#scrollR {
+    width:20%;
+    height:100%;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+#scrollU {
+    width:100%;
+    height:20%;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+#scrollD {
+    width:100%;
+    height:20%;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
